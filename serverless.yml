@@ -3,8 +3,8 @@ service: mortgage-tracker
 provider:
   name: google
   stage: dev
-  runtime: nodejs10
-  region: us-central1
+  runtime: nodejs18
+  region: australia-southeast1
   project: my-project
   # The GCF credentials can be a little tricky to set up. Luckily we've documented this for you here:
   # https://serverless.com/framework/docs/providers/google/guide/credentials/
